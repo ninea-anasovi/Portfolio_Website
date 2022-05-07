@@ -22,10 +22,10 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
         <NavLink exact={true} to='/' className='active'>
           <FontAwesomeIcon icon={faHome} color='#4d4d4e'/>
         </NavLink>
-        <NavLink exact={true} to='/about' className='active about-link'>
+        <NavLink exact={true} to='/about' className='active' className='about-link'>
           <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
         </NavLink>
-        <NavLink exact={true} to='/contact' className='active contact-link'>
+        <NavLink exact={true} to='/contact' className='active' className='contact-link'>
           <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
         </NavLink>
       </nav>
