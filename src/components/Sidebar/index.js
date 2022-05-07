@@ -25,7 +25,7 @@ import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
         Main
       </div>
       <div>
-        Test
+        main
       </div>
       <nav>
         <NavLink exact={true} to='/' className='active'>
