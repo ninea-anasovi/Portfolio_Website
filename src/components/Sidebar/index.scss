@@ -10,18 +10,21 @@
     .logo {
         display: block;
         padding: 8px 0;
-    }
+    
 
-    img {
-        display: block;
-        margin: 8px auto;
-        width: 50%;
-        height: auto;
-    }
+        img {
+            display: block;
+            margin: 8px auto;
+            width: 50%;
+            height: auto;
+        
 
-    .sub-logo{
-        width: 70%;
-        margin-top: 20px;
+            &.sub-logo{
+                width: 70%;
+                margin-top: 20px;
+            }
+        }
+
     }
 
     nav {
@@ -32,26 +35,71 @@
         top: 50%;
         margin-top: -120px;
         width: 100%;
+
         a {
-                font-size: 30px;
-                display: block;
-                color: #4d4d4e;
-                line-height: 51px;
-                height: 51px;
-                text-decoration: none;
+            font-size: 30px;
+            display: block;
+            color: #4d4d4e;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
         
+            
+            i {
+                transition: all 0.3s ease-out;
             }
-        i {
-            transition: all 0.3s ease-out;
+            
+            &:hover {
+                color: #ffd700;
+
+                svg {
+                    opacity: 0;
+                }
+                
+                &:after {
+                    opacity: 1;
+                }
+            }
+        
+
+            &:after {
+                    content: '';
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                    position: absolute;
+                    bottom: 0;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    opacity: 0;
+                    transition: all 0.3s ease-out;
+                    -webkit-transition: all 0.3s ease-out;
+            }
+
+            &:first-child {
+                &:after {
+                    content: 'HOME';
+                }
+            }        
         }
-        &:hover {
-            color: #ffd700;
+        
+        a.about-link {
+            &:after {
+                content: 'ABOUT';
+            }
         }
 
+        a.contact-link {
+            &:after {
+                content: 'CONTACT';
+            }
+        }
+
+        a.active {
+            svg {
+                color: #ffd700
+            }
+        }
     }
-
-
-
-
-    
 }
