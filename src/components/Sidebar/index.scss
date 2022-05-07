@@ -32,21 +32,26 @@
         top: 50%;
         margin-top: -120px;
         width: 100%;
-
+        a {
+                font-size: 30px;
+                display: block;
+                color: #4d4d4e;
+                line-height: 51px;
+                height: 51px;
+                text-decoration: none;
+        
+            }
+        i {
+            transition: all 0.3s ease-out;
         }
-    a { 
-        font-size: 30px;
-        display: block;
-        color: #4d4d4e;
-        line-height: 51px;
-        height: 51px;
-        text-decoration: none;
+        &:hover {
+            color: #ffd700;
+        }
 
     }
 
-    i {
-        transition: all 0.3s ease-out;
-    }
+
+
 
     
 }
