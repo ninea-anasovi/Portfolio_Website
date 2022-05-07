@@ -15,7 +15,12 @@ import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
             <img src={LogoS} alt ='logo'/>
             <img className='sub-logo' src={LogoSubtite} alt ='logo'/>
         </Link>
-
+      <div>
+        Ninea
+      </div>
+      <div>
+        Tornike
+      </div>
       <nav>
         <NavLink exact={true} to='/' className='active'>
           <FontAwesomeIcon icon={faHome} color='#4d4d4e'/>
