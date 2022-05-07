@@ -28,8 +28,9 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
         <NavLink exact={true} to='/contact' className='active contact-link'>
           <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
         </NavLink>
+      </nav>
 
-        <ul>
+      <ul>
           <li>
             <a href='https://www.linkedin.com/in/ninéa/'> <FontAwesomeIcon icon={faLinkedin}/> </a>
           </li>
@@ -39,9 +40,7 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
           <li>
             <a href='https://www.behance.net/ninea?tracking_source=search_users%7Cninea%20anasov'><FontAwesomeIcon icon={faBehance}/> </a>
           </li>
-        </ul>
-
-      </nav>
+      </ul>
     </div>
   )
 }

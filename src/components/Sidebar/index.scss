@@ -104,7 +104,27 @@
     }
 
     ul {
-        text-decoration: none;
+        position: absolute;
         bottom: 20px;
+        list-style: none;
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+        li {
+            a {
+                padding: 7px;
+                display: block;
+                font-size: 20px;
+                color: #4d4d4e;
+
+                &:hover svg{
+                    color: #ffd700;
+                }
+            }
+
+        }
     }
 }
