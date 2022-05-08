@@ -24,16 +24,22 @@ const Home = () => {
     '.',
   ]
    
-  useEffect ( () => {
-      return setTimeout(() => {
-      setLetterClass('text-animate-hover')},4000)
-    }, [])
+//   useEffect ( () => {
+//       return setTimeout(() => {
+//       setLetterClass('text-animate-hover')},4000)
+//     }, [])
 
     return (
 
         <div className='container home-page'>
             <div className='text-zone'>
-                <h1>Hi, <br/> <AnimatedLetters className={letterClass} strArray={nameArray} index={15}/> <br/> Web Developer</h1>
+                <h1>Hi, 
+                    <br/> 
+                    <AnimatedLetters className={letterClass} strArray={nameArray} index={15}/>
+                    <br/> 
+                    <AnimatedLetters className={letterClass} strArray={jobArray} index={24}/>
+                </h1>
+
                 <h2>React Developer | Programmer </h2>
                 <Link to='/contact' className='flat-button'> CONTACT ME</Link>
 
