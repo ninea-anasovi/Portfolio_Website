@@ -37,7 +37,7 @@ const Home = () => {
                     <br/> 
                     <AnimatedLetters className={letterClass} strArray={nameArray} index={15}/>
                     <br/> 
-                    <AnimatedLetters className={letterClass} strArray={jobArray} index={24}/>
+                    <AnimatedLetters className={letterClass} strArray={jobArray} index={25}/>
                 </h1>
 
                 <h2>React Developer | Programmer </h2>
