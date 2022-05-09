@@ -1,6 +1,6 @@
 .nav-bar {
     background-color: #181818;
-    width: 120px;
+    width: 60px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -37,7 +37,7 @@
         width: 100%;
 
         a {
-            font-size: 30px;
+            font-size: 18px;
             display: block;
             color: #4d4d4e;
             line-height: 51px;
@@ -65,7 +65,7 @@
 
             &:after {
                     content: '';
-                    font-size: 14px;
+                    font-size: 7px;
                     letter-spacing: 2px;
                     position: absolute;
                     bottom: 0;
@@ -117,7 +117,7 @@
             a {
                 padding: 7px;
                 display: block;
-                font-size: 20px;
+                font-size: 14px;
                 color: #4d4d4e;
 
                 &:hover svg{
