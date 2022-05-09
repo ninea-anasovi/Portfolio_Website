@@ -20,13 +20,13 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
       <nav>
 
         <NavLink exact="true" to='/' className='active'>
-          <FontAwesomeIcon icon={faHome} color='#4d4d4e'/>
+          <FontAwesomeIcon icon={faHome} />
         </NavLink>
         <NavLink exact="true" to='/about' className='active' className='about-link'>
-          <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
+          <FontAwesomeIcon icon={faUser} />
         </NavLink>
         <NavLink exact="true" to='/contact' className='active' className='contact-link'>
-          <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
+          <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
       </nav>
 

@@ -24,7 +24,7 @@ const Home = () => {
     '.',
   ]
    
-const hoverHandler =()=>{
+const hoverHandler = () => {
       setTimeout(() => {
           setLetterClass('text-animate-hover')
           console.log(letterClass)
@@ -33,7 +33,7 @@ const hoverHandler =()=>{
 
 
    useEffect(() => {
-    hoverHandler();
+    hoverHandler()
    }, [])
 
     return (

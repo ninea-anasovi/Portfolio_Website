@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .home-page {
     .text-zone {
         position: absolute;
@@ -9,7 +11,7 @@
     }
 
     h1 {
-        color: #fff;
+        color: $accentLight;
         font-size: 2.5rem;
         line-height: 2.5rem;
         margin: 0;
@@ -21,7 +23,7 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: $accent;
         margin-top: 30px;
         font-weight: 400;
         font-size: 0.75rem;
@@ -33,21 +35,21 @@
     
     .flat-button {
         text-decoration: none;
-        color: #ffd700;
+        color: $hoverColor;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
         animation: fadeIn 2.4s backwards;
-        border: solid #ffd700 1px;
+        border: solid $hoverColor 1px;
         margin-top: 125px;
         padding: 10px 18px;
-        box-shadow: inset 0px 0px 0px #022c43;
+        box-shadow: inset 0px 0px 0px $backgroundColor;
         transition: all 0.1s !important;
     
         &:hover {
-            box-shadow: inset 170px 0px 0px #ffd700;
-            color: #333;
+            box-shadow: inset 170px 0px 0px $hoverColor;
+            color: $backgroundColor;
         }
     }
 
