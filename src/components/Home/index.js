@@ -24,10 +24,17 @@ const Home = () => {
     '.',
   ]
    
-//   useEffect ( () => {
-//       return setTimeout(() => {
-//       setLetterClass('text-animate-hover')},4000)
-//     }, [])
+const hoverHandler =()=>{
+      setTimeout(() => {
+          setLetterClass('text-animate-hover')
+          console.log(letterClass)
+    }, 4000)
+}
+
+
+   useEffect(() => {
+    hoverHandler();
+   }, [])
 
     return (
 
