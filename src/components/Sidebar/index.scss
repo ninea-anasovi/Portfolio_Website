@@ -1,5 +1,7 @@
+@import '../../App.scss';
+
 .nav-bar {
-    background-color: #181818;
+    background-color: $accentDark;
     width: 60px;
     height: 100%;
     position: absolute;
@@ -35,23 +37,26 @@
         top: 50%;
         margin-top: -120px;
         width: 100%;
+        
 
         a {
             font-size: 18px;
             display: block;
-            color: #4d4d4e;
+            color: $accentLight;
             line-height: 51px;
             height: 51px;
             position: relative;
             text-decoration: none;
+            
         
             
             i {
                 transition: all 0.3s ease-out;
+
             }
             
             &:hover {
-                color: #ffd700;
+                color: $accentLight;
 
                 svg {
                     opacity: 0;
@@ -98,7 +103,7 @@
 
         a.active {
             svg {
-                color: #ffd700
+                color: $hoverColor
             }
         }
     }
@@ -118,10 +123,10 @@
                 padding: 7px;
                 display: block;
                 font-size: 14px;
-                color: #4d4d4e;
+                color: $accentLight;
 
                 &:hover svg{
-                    color: #ffd700;
+                    color: $hoverColor;
                 }
             }
 

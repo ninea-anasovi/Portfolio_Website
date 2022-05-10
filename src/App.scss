@@ -1,4 +1,8 @@
-$primery-color: #ffd700;
+$hoverColor: yellow;
+$backgroundColor: #103b44;
+$accentLight: #e5eec1;
+$accent: #a2d4ab;
+$accentDark: #3eaca8;
 
 @import 'animate.css';
 
@@ -16,6 +20,8 @@ $primery-color: #ffd700;
   font-family: 'Coolvetica';
   src: url('assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
+
+
 
 Input,
 textArea {

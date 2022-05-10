@@ -1,7 +1,10 @@
+@import '../../App.scss';
+
 .page {
     width: 100%;
     position: absolute;
     height: 100%;
+    background-color: $backgroundColor;
 }
 
 .top-tags {
@@ -10,7 +13,7 @@
 }
 
 .tags {
-    color: #ffd700;
+    color: $hoverColor;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
@@ -24,12 +27,12 @@
 }
 
 .container {
+    left: 10%;
     width: 100%;
     will-change: contents;
     height: 90%;
     min-height: 566px;
     position: absolute;
-    //opacity: 0;
     top: 5%;
     margin: 0 auto;
     z-index: 1;

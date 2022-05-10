@@ -6,39 +6,33 @@ import AnimatedLetters from '../AnimatedLetters';
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['I',"'",'m',' ','N','i','n','e','a'];
-    const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+    
    
-//   useEffect ( () => {
-//       return setTimeout(() => {
-//       setLetterClass('text-animate-hover')},4000)
-//     }, [])
+// const hoverHandler = () => {
+//       setTimeout(() => {
+//           setLetterClass('text-animate-hover')
+//           console.log(letterClass)
+//     }, 4000)
+// }
+
+
+   useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover')
+            console.log(letterClass)
+        }, 4000)
+   }, [])
 
     return (
 
         <div className='container home-page'>
             
             <div className='text-zone'>
-                <h1><AnimatedLetters letterClass={letterClass} strArray={['H','i',',']} index={12}/> 
-                    <br/> 
-                    <AnimatedLetters letterClass={letterClass} strArray={nameArray} index={15}/>
-                    <br/> 
-                    <AnimatedLetters letterClass={letterClass} strArray={jobArray} index={25}/>
+                <h1>
+                    <AnimatedLetters letterClass={letterClass} inputText={
+                        "Hi,\nI'm Ninea!\nWeb Developer"
+                    } time={10}/>
+                    
                 </h1>
 
                 <h2>React Developer | Programmer </h2>
