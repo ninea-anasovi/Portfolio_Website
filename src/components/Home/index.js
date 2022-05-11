@@ -6,14 +6,6 @@ import AnimatedLetters from '../AnimatedLetters';
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    
-   
-// const hoverHandler = () => {
-//       setTimeout(() => {
-//           setLetterClass('text-animate-hover')
-//           console.log(letterClass)
-//     }, 4000)
-// }
 
 
    useEffect(() => {
