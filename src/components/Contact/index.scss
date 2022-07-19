@@ -51,6 +51,7 @@
         border-radius: 15px;
         margin-top: 5px;
         outline: none;
+        color: $accent;
     }
 
     textarea {
@@ -68,6 +69,7 @@
         border: 0;
         margin-top: 5px;
         outline: none;
+        resize: none;
     }
 
     .flat-button {
