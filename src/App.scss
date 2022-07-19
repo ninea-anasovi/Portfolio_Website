@@ -1,8 +1,8 @@
-$hoverColor: yellow;
-$backgroundColor: #103b44;
-$accentLight: #e5eec1;
-$accent: #a2d4ab;
-$accentDark: #3eaca8;
+$hoverColor: #EBDD46;
+$backgroundColor: #FFF9F1;
+$accentLight: #BACBD2;
+$accent: #596A71;
+$accentDark: #679F30;
 
 @import 'animate.css';
 
@@ -12,13 +12,13 @@ $accentDark: #3eaca8;
 }
 
 @font-face {
-  font-family: 'La Belle Aurore';
-  src: url('assets/fonts/LaBelleAurore.woff2') format('woff2');
+  font-family: 'Champagne & Limousines';
+  src: url('assets/fonts/Champagne & Limousines.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: 'Coolvetica';
-  src: url('assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+  font-family: 'Galgine';
+  src: url('assets/fonts/Galgine.otf') format('otf');
 }
 
 

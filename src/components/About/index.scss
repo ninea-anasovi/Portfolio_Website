@@ -1,0 +1,27 @@
+@import '../../App.scss';
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-left {
+    width: 35%;
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .flex-right {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+  }
+
+.skill-lable {
+    font-family: 'Champagne & Limousines';
+    font-size: 0.8rem;
+    color: $accentDark;
+    text-align: center;
+}
+

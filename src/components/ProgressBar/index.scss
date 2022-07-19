@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+* {
+	box-sizing: border-box;
+}
+
+.progress {
+	background-color: $accentLight;
+	border-radius: 20px;
+	position: relative;
+	margin: 5px auto;
+	margin-top: -10px;
+	height: 30px;
+	width: 500px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, $accentDark, $hoverColor);
+	box-shadow: 0 3px 3px -5px $accentDark,  0 2px 5px $hoverColor;
+	border-radius: 20px;
+	color: $backgroundColor;
+	font-family: 'Champagne & Limousines' ;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

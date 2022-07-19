@@ -1,2 +1,87 @@
-@import '../../App.scss'
+@import '../../App.scss';
 
+.contact-page {
+    width: 35%;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type='text'], input[type='email'] {
+
+        width: 100%;
+        border: 0;
+        background-color: $accentLight;
+        height: 50px;
+        color: $backgroundColor;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+
+    }
+
+    textarea {
+        width:100%;
+        background-color: $accentLight;
+        height: 50px;
+        font-size: 16px;
+        color: $backgroundColor;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+        border: 0;
+    }
+
+    .flat-button {
+        text-decoration: none;
+        color: $accentDark;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-family: 'Champagne & Limousines';
+        animation: fadeIn 2.4s backwards;
+        border: solid $accentDark 3px;
+        border-radius: 15px;
+        padding: 20px 70px;
+        box-shadow: inset 0px 0px 0px $backgroundColor;
+        transition: all 0.1s !important;
+        float: right;
+    
+        &:hover {
+            box-shadow: inset 300px 0px 0px $accentDark;
+            color: $backgroundColor;
+        }
+    }
+
+}

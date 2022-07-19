@@ -2,16 +2,25 @@
 
 .nav-bar {
     background-color: $accentDark;
-    width: 60px;
+    width: 7%;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 500 px;
+    min-height: 500 px;   
 
     .logo {
         display: block;
         padding: 8px 0;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        text-decoration: none;
+        font-family: 'Galgine';
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: $backgroundColor;
+        margin: auto;
+        margin-top: 20px;
     
 
         img {
@@ -38,11 +47,12 @@
         margin-top: -120px;
         width: 100%;
         
+        
 
         a {
             font-size: 18px;
             display: block;
-            color: $accentLight;
+            color: $backgroundColor;
             line-height: 51px;
             height: 51px;
             position: relative;
@@ -56,7 +66,7 @@
             }
             
             &:hover {
-                color: $accentLight;
+                color: $backgroundColor;
 
                 svg {
                     opacity: 0;
@@ -70,7 +80,7 @@
 
             &:after {
                     content: '';
-                    font-size: 7px;
+                    font-size: 10px;
                     letter-spacing: 2px;
                     position: absolute;
                     bottom: 0;
@@ -80,6 +90,8 @@
                     opacity: 0;
                     transition: all 0.3s ease-out;
                     -webkit-transition: all 0.3s ease-out;
+                    font-family: 'Champagne & Limousines';
+                    font-size: 12px;
             }
 
             &:first-child {
@@ -123,7 +135,7 @@
                 padding: 7px;
                 display: block;
                 font-size: 14px;
-                color: $accentLight;
+                color: $backgroundColor;
 
                 &:hover svg{
                     color: $hoverColor;

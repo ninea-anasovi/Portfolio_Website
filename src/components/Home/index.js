@@ -22,7 +22,7 @@ const Home = () => {
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters letterClass={letterClass} inputText={
-                        "Hi,\nI'm Ninea!\nWeb Developer"
+                        "Hi,\nI'm Ninèa!\nWeb Developer"
                     } time={10}/>
                     
                 </h1>

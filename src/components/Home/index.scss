@@ -5,16 +5,16 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 50%;
         max-height: 90%;
     }
 
     h1 {
-        color: $accentLight;
+        color: $accent;
         font-size: 2.5rem;
-        line-height: 2.5rem;
+        line-height: 2.9rem;
         margin: 0;
-        font-family: 'Coolvetica';
+        font-family: 'Galgine';
         font-weight: 400;
         animation: fadeIn 1.5s backwards;
         letter-spacing: 3px;
@@ -22,32 +22,32 @@
     }
 
     h2 {
-        color: $accent;
+        color: $accentLight;
         margin-top: 30px;
-        font-weight: 400;
-        font-size: 0.75rem;
-        font-family: sans-serif;
-        letter-spacing: 3px;
+        font-size: 1rem;
+        font-family: 'Champagne & Limousines';
+        letter-spacing: 2px;
         animation: fadeIn 2s backwards;
         margin-bottom: 45px;
     }
     
     .flat-button {
         text-decoration: none;
-        color: $hoverColor;
-        font-size: 14px;
+        color: $accentDark;
+        font-size: 20px;
         font-weight: 400;
-        letter-spacing: 4px;
-        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-family: 'Champagne & Limousines';
         animation: fadeIn 2.4s backwards;
-        border: solid $hoverColor 1px;
-        margin-top: 125px;
-        padding: 20px 20px;
+        border: solid $accentDark 3px;
+        border-radius: 15px;
+        margin-top: 150px;
+        padding: 20px 40px;
         box-shadow: inset 0px 0px 0px $backgroundColor;
         transition: all 0.1s !important;
     
         &:hover {
-            box-shadow: inset 180px 0px 0px $hoverColor;
+            box-shadow: inset 300px 0px 0px $accentDark;
             color: $backgroundColor;
         }
     }

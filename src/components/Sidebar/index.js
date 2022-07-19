@@ -13,8 +13,9 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
     <div className='nav-bar'>
 
         <Link to='/' className='logo'>
-            <img src={LogoS} alt ='logo'/>
-            <img className='sub-logo' src={LogoSubtite} alt ='logo'/>
+          <h3>
+            Ninèa
+          </h3>
         </Link>
 
       <nav>
