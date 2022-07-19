@@ -19,7 +19,7 @@ function Contact() {
     <div className='container contact-page'>
       <div className='text-zone'>
         <h1>
-          <AnimatedLetters letterClass={letterClass} inputText={'Contact Me'} time={15} />
+          <AnimatedLetters letterClass={letterClass} inputText={'Contact Me'} time={5} />
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 

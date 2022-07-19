@@ -6,7 +6,7 @@
 
 .contact-form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
 
     ul {
         padding: 0;
@@ -39,7 +39,8 @@
     }
 
     input[type='text'], input[type='email'] {
-
+        font-family: 'Champagne & Limousines';
+        font-size: 16px;
         width: 100%;
         border: 0;
         background-color: $accentLight;
@@ -47,24 +48,31 @@
         color: $backgroundColor;
         padding: 0 20px;
         box-sizing: border-box;
-
-
+        border-radius: 15px;
+        margin-top: 5px;
+        outline: none;
     }
 
     textarea {
         width:100%;
         background-color: $accentLight;
+        font-family: 'Champagne & Limousines';
+        font-size: 16px;
         height: 50px;
         font-size: 16px;
-        color: $backgroundColor;
+        color: $accent;
         padding: 20px;
         min-height: 150px;
         box-sizing: border-box;
+        border-radius: 15px;
         border: 0;
+        margin-top: 5px;
+        outline: none;
     }
 
     .flat-button {
         text-decoration: none;
+        background-color: $backgroundColor;
         color: $accentDark;
         font-size: 20px;
         font-weight: 400;
@@ -77,6 +85,7 @@
         box-shadow: inset 0px 0px 0px $backgroundColor;
         transition: all 0.1s !important;
         float: right;
+        margin-top: 5px;
     
         &:hover {
             box-shadow: inset 300px 0px 0px $accentDark;

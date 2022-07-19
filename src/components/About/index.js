@@ -20,7 +20,7 @@ export default function About() {
       <div className='text-zone flex-left'>
 
         <h1>
-          <AnimatedLetters inputText={'About Me'} time={15} letterClass={letterClass}/>
+          <AnimatedLetters inputText={'About Me'} time={5} letterClass={letterClass}/>
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 

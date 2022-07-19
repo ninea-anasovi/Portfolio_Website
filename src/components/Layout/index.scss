@@ -43,10 +43,6 @@
 
 .about-page, .contact-page {
     .text-zone {
-        // position: absolute;
-        // top:50%;
-        // transform: translateY(-50%);
-        // width: 35%;
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
@@ -63,7 +59,7 @@
         }
 
         p {
-            font-size: 15px;
+            font-size: 18px;
             font-family: 'Champagne & Limousines';
             font-weight: 300;
             min-width: fit-content;
