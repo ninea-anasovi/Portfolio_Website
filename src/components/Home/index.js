@@ -2,7 +2,7 @@ import './index.scss'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
-import '../../assets/images/Ninea.png'
+import Ninea from '../../assets/images/Ninea.png'
 
 const Home = () => {
 
@@ -32,8 +32,9 @@ const Home = () => {
                 <Link to='/contact' className='flat-button'> CONTACT ME</Link>
 
             </div>
-            <div>
-                <img src='../../assets/images/Ninea.png' alt="Ninea"/>
+
+            <div className='portrait'>
+                <img src={Ninea} alt="Ninea"/>
             </div>
         </div>
 

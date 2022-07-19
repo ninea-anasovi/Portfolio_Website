@@ -1,12 +1,15 @@
 @import '../../App.scss';
 
 .home-page {
+    display: flex;
+    flex-direction: row;
+
     .text-zone {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 50%;
+        width: 49%;
         max-height: 90%;
+        margin: 0 2% ;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     h1 {
@@ -30,7 +33,7 @@
         animation: fadeIn 2s backwards;
         margin-bottom: 45px;
     }
-    
+
     .flat-button {
         text-decoration: none;
         color: $accentDark;
@@ -51,6 +54,19 @@
             color: $backgroundColor;
         }
     }
+
+    .portrait {
+        width: 49%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    img {
+        width: 70%;
+        border-radius: 100% 100% 0% 100% ;
+        
+    }
+
+    
 
 }
 
