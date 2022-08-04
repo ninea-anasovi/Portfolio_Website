@@ -169,14 +169,16 @@ button { display: none;}
         width: 60px;  
         font-size: 1rem;
         font-weight: bold;
-        border-radius: 50%;
-        background-color: $accentDark;
-        color: $backgroundColor;
+        border-radius: 50% 0 50% 50%;
+        // background-color: $accentDark;
+        // color: $backgroundColor;
+        background-color: $backgroundColor;
+        color: $accent;
         text-align: center;
         cursor: pointer;
         z-index: 1000;
         position: absolute;
-        right: 3%;
-        top: 2%;
+        right: 0;
+        top: 0;
     }
   }
