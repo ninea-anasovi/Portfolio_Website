@@ -13,7 +13,7 @@ const Home = () => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
             console.log(letterClass)
-        }, 4000)
+        }, 4500)
    }, [])
 
     return (
