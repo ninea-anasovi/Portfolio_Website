@@ -29,13 +29,13 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
           </Link>
 
         <nav>
-          <NavLink exact="true" to='/' className='active'>
+          <NavLink exact="true" to='/' className='active' onClick={menuHandler}>
             <FontAwesomeIcon icon={faHome} />
           </NavLink>
-          <NavLink exact="true" to='/about' className='active' className='about-link'>
+          <NavLink exact="true" to='/about' className='active' className='about-link' onClick={menuHandler}>
             <FontAwesomeIcon icon={faUser} />
           </NavLink>
-          <NavLink exact="true" to='/contact' className='active' className='contact-link'>
+          <NavLink exact="true" to='/contact' className='active' className='contact-link' onClick={menuHandler}>
             <FontAwesomeIcon icon={faEnvelope} />
           </NavLink>
         </nav>
