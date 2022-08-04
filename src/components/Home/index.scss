@@ -73,7 +73,6 @@
         flex-flow: column-reverse;
         height: none;
         
-
         .text-zone {
             width: 80%;
             height: fit-content;
@@ -81,6 +80,11 @@
             text-align: center;
             margin: auto;
         }
+
+        h1 {
+            font-size: 1.6rem;
+        }
+
         .portrait {
             margin-top: 10%;
             width: 80%;
