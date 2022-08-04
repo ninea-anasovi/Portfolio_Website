@@ -161,6 +161,14 @@ button { display: none;}
         display: block;
         width: 100%;
     }
+    .nav-bar nav a{
+        font-size: 0.95rem;
+        margin: 10px;
+    }
+
+    .nav-bar ul li a{
+        font-size: 0.8rem;
+    }
 
     button {
         display: inline;
