@@ -69,21 +69,26 @@
 
 @media only screen and (max-width: 900px) {
     .home-page{
-        padding: 0;
+        flex-direction: none;
         flex-flow: column-reverse;
-        margin:  200px 0 0 0;
-        max-height: none;
-        overflow-y: scroll;
+        height: none;
+        
+
         .text-zone {
             width: 80%;
+            
+            height: fit-content;
+            padding-bottom: 200px;
+            text-align: center;
+            margin: auto;
         }
         .portrait {
+            margin-top: 10%;
             width: 80%;
-            position: relative;
-            margin: 0;
             margin-bottom: 40px;
             margin-left: auto;
             margin-right: auto;
+            text-align: center
         }
     }
 }
