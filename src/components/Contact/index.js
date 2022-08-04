@@ -1,12 +1,25 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import emailjs from '@emailjs/browser';
+
+
 
 function Contact() {
 
   const [letterClass, setLetterClass] = useState('text-animate')
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    emailjs.sendForm('service_9m98s98', 'template_ze1l3n8', form.current, 'RHUmOuNAcJX6Uoxyw')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   useEffect(() => {
         setTimeout(() => {
@@ -27,7 +40,7 @@ function Contact() {
         </p>
 
         <div className='contact-form'>
-          <form>
+          <form onSubmit={sendEmail}>
             <ul>
               <li className='half'>
                 <input type='text' name='name' placeholder='Name' required/>
@@ -36,13 +49,13 @@ function Contact() {
                 <input type='email' name='email' placeholder='Email' required/>
               </li>
               <li>
-                <input type='text' name='subjact' placeholder='Subject' required/>
+                <input type='text' name='subject' placeholder='Subject' required/>
               </li>
               <li>
                 <textarea name='message' placeholder='Message' required/>
               </li>
               <li >
-                <input  type='submit' className='flat-button' value='SEND'/>
+                <input  type='submit' className='flat-button' value='SEND' />
               </li>              
             </ul>
           </form>
