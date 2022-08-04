@@ -65,8 +65,25 @@
         border-radius: 100% 100% 0% 100% ;
         
     }
-
-    
-
 }
 
+@media only screen and (max-width: 900px) {
+    .home-page{
+        padding: 0;
+        flex-flow: column-reverse;
+        margin:  200px 0 0 0;
+        max-height: none;
+        overflow-y: scroll;
+        .text-zone {
+            width: 80%;
+        }
+        .portrait {
+            width: 80%;
+            position: relative;
+            margin: 0;
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
