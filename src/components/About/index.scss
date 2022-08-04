@@ -25,3 +25,24 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+  .flex-container {
+    margin: 0;
+    display: block;
+    width: 80%;
+    position: relative;
+    overflow-y: scroll;
+  }
+  .flex-left {
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .flex-right {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+  }
+
+}
