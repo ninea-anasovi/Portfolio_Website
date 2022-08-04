@@ -32,6 +32,7 @@
     width: 80%;
     position: relative;
     overflow-y: scroll;
+    text-align: center;
   }
   .flex-left {
     height: 100vh;
@@ -40,9 +41,8 @@
   }
   
   .flex-right {
-    margin: 5px;
-    padding: 5px;
-    width: 80%;
+    width: 100%;
+    
   }
 
 }
