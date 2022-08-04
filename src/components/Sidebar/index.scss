@@ -149,6 +149,11 @@
 button { display: none;}
 
 @media only screen and (max-width: 900px) {
+    .nav-bar .logo {
+        writing-mode: horizontal-tb;
+        transform: none;
+        text-align: center;
+    }
     .hidden-menu {
         display: none;
     }
