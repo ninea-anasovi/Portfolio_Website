@@ -54,7 +54,7 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
       </div>
 
       <button onClick={menuHandler}>
-        { showMobileMenu ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} /> }
+        { showMobileMenu ? <FontAwesomeIcon icon={faXmark} style={{color: 'white'}} /> : <FontAwesomeIcon icon={faBars} /> }
       </button>
     </>
   )
