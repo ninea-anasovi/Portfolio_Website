@@ -40,7 +40,7 @@ function Contact() {
         </p>
 
         <div className='contact-form'>
-          <form onSubmit={sendEmail}>
+          <form onSubmit={sendEmail} ref={form}>
             <ul>
               <li className='half'>
                 <input type='text' name='name' placeholder='Name' required/>
