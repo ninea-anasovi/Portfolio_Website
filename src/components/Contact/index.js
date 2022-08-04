@@ -9,15 +9,16 @@ import emailjs from '@emailjs/browser';
 function Contact() {
 
   const [letterClass, setLetterClass] = useState('text-animate')
+  const [sentMessage, setSentMessage] = useState('')
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_9m98s98', 'template_ze1l3n8', form.current, 'RHUmOuNAcJX6Uoxyw')
       .then((result) => {
-          console.log(result.text);
+        setSentMessage('Sent Succesfully')
       }, (error) => {
-          console.log(error.text);
+        setSentMessage('Oops, There was an error, please try again later!' + error.text)
       });
   };
 
@@ -56,15 +57,12 @@ function Contact() {
               </li>
               <li >
                 <input  type='submit' className='flat-button' value='SEND' />
-              </li>              
+              </li>
+              <p>{sentMessage}</p>             
             </ul>
           </form>
         </div>
-
-        <Loader type="pacman"/>
-
       </div>
-
     </div>
   )
 }
