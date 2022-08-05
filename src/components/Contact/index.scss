@@ -2,6 +2,8 @@
 
 .contact-page {
     width: 35%;
+    margin-left: 25%;
+    text-align: center;
 }
 
 .contact-form {
@@ -43,7 +45,8 @@
         font-size: 16px;
         width: 100%;
         border: 0;
-        background-color: $accentLight;
+        background-color: $backgroundColor;
+        border: solid $accentLight 3px;
         height: 50px;
         color: $backgroundColor;
         padding: 0 20px;
@@ -56,7 +59,8 @@
 
     textarea {
         width:100%;
-        background-color: $accentLight;
+        background-color: $backgroundColor;
+        border: solid $accentLight 3px;
         font-family: 'Champagne & Limousines';
         font-size: 16px;
         height: 50px;
@@ -66,7 +70,6 @@
         min-height: 150px;
         box-sizing: border-box;
         border-radius: 15px;
-        border: 0;
         margin-top: 5px;
         outline: none;
         resize: none;
@@ -86,7 +89,7 @@
         padding: 20px 70px;
         box-shadow: inset 0px 0px 0px $backgroundColor;
         transition: all 0.1s !important;
-        float: right;
+        // float: right;
         margin-top: 5px;
     
         &:hover {

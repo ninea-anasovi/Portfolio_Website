@@ -4,7 +4,7 @@ import './index.scss';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtite from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope, faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faBars, faXmark, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -37,6 +37,9 @@ import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
           </NavLink>
           <NavLink exact="true" to='/contact' className='active' className='contact-link' onClick={menuHandler}>
             <FontAwesomeIcon icon={faEnvelope} />
+          </NavLink>
+          <NavLink exact="true" to='/portfolio' className='active' className='portfolio-link' onClick={menuHandler}>
+            <FontAwesomeIcon icon={faLaptopCode} />
           </NavLink>
         </nav>
 

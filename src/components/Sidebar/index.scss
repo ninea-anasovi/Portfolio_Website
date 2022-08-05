@@ -113,6 +113,12 @@
             }
         }
 
+        a.portfolio-link {
+            &:after {
+                content: 'PORTFOLIO';
+            }
+        }
+
         a.active {
             svg {
                 color: $hoverColor
