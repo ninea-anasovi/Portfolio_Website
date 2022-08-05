@@ -23,16 +23,19 @@ export default function About() {
           <AnimatedLetters inputText={'About Me'} time={5} letterClass={letterClass}/>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. Est ultricies integer quis auctor elit sed vulputate mi. 
+          From The deepest of my childhood I had Two Things that I was absolutely passionate about first one was playing with Visuals (Drawing, Photographing, Digital Art) and the second one was - Technical Problem Solving (Math, physics) as I grew up I decided that my profession should be Connected to my technical side and settled to Study Electrical and Computer Engineering but never stopped developing my art side. 
         </p>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est ultricies integer quis auctor elit sed vulputate mi. Interdum posuere lorem ipsum dolor sit amet consectetur. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Leo urna molestie at elementum eu facilisis. Nisl condimentum id venenatis a condimentum vitae sapien. In tellus integer feugiat scelerisque varius. Pretium quam vulputate dignissim suspendisse in est ante in. Tincidunt arcu non sodales neque sodales ut. Risus ultricies tristique nulla aliquet. Quam elementum pulvinar etiam non quam.
+          Electrical and Computer Engineering in Agricultural University of Georgia gave me solid knowledge of Hardware technologies from PCB designing to Hardware (programming microcontrollers and controllers) and Software Programming.
         </p>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est ultricies integer quis auctor elit sed vulputate mi. Interdum posuere lorem ipsum dolor sit amet consectetur. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Leo urna.
+          Alongside I learned Graphic Design to not give up my drawing skills and enhance, than I realized that what could bring both Together and let me to fully develop both of my sides would be Frontend Development and started learning that with solid knowledge of other programming languages like - C++, Python and little bit of Assembler, which helped me a lot. And my learning Journey was more of a fun opportunity to draw with a code.
+        </p>
+
+        <p>
+          Now as a web-developer I know JavaScript and React alongside markup languages: HTML5, CSS and Sass. And this is not the end of my list as I am Open to learn more and always amplify my knowledge.
         </p>
       </div>
 
