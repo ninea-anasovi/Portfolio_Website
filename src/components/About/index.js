@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import ProgressBar from '../ProgressBar'
+import Ninea from '../../assets/images/ninea.jpg'
 
 export default function About() {
 
@@ -15,15 +16,17 @@ export default function About() {
         }, 2500)
    }, [])
 
-  return (
+  return ( 
+
     <div className='container about-page flex-container'>
+      
       <div className='text-zone flex-left'>
 
         <h1>
           <AnimatedLetters inputText={'About Me'} time={5} letterClass={letterClass}/>
         </h1>
         <p>
-          From The deepest of my childhood I had Two Things that I was absolutely passionate about first one was playing with Visuals (Drawing, Photographing, Digital Art) and the second one was - Technical Problem Solving (Math, physics) as I grew up I decided that my profession should be Connected to my technical side and settled to Study Electrical and Computer Engineering but never stopped developing my art side. 
+         As a chilt I was absolutely passionate about 2 things: playing with Visuals (Drawing, Photographing, Digital Art) and Technical Problem Solving (Math, physics) as I grew up I decided that my profession should be Connected to my technical side and settled to Study Electrical and Computer Engineering but never stopped developing my art side. 
         </p>
 
         <p>

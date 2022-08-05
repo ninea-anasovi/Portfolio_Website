@@ -1,48 +1,51 @@
 @import '../../App.scss';
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-  }
   
-  .flex-left {
-    width: 35%;
-    height: 100vh;
-    margin: 5px;
-    padding: 5px;
-  }
   
-  .flex-right {
-    width: 50%;
-    margin: 5px;
-    padding: 5px;
-  }
-
-.skill-lable {
-    font-family: 'Champagne & Limousines';
-    font-size: 0.8rem;
-    color: $accentDark;
-    text-align: center;
-}
-
-@media only screen and (max-width: 900px) {
   .flex-container {
-    margin: 0;
-    display: block;
-    width: 80%;
-    position: relative;
-    overflow-y: scroll;
-    text-align: center;
-    margin: auto;
-  }
-  .flex-left {
-    height: 100vh;
-    margin: 5px;
-    padding: 5px;
+      
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .flex-left {
+      width: 35%;
+      height: 100vh;
+      margin: 5px;
+      padding: 5px;
+    }
+    
+    .flex-right {
+      width: 50%;
+      margin: 5px;
+      padding: 5px;
+    }
+  
+  .skill-lable {
+      font-family: 'Champagne & Limousines';
+      font-size: 0.8rem;
+      color: $accentDark;
+      text-align: center;
   }
   
-  .flex-right {
-    width: 100%;
-  }
-
+  @media only screen and (max-width: 900px) {
+    .flex-container {
+      margin: 0;
+      display: block;
+      width: 80%;
+      position: relative;
+      overflow-y: scroll;
+      text-align: center;
+      margin: auto;
+    }
+    .flex-left {
+      height: 100vh;
+      margin: 5px;
+      padding: 5px;
+    }
+    
+    .flex-right {
+      width: 100%;
+    }
+  
 }

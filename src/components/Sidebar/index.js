@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss';
-import LogoS from '../../assets/images/logo-s.png';
-import LogoSubtite from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faBars, faXmark, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
