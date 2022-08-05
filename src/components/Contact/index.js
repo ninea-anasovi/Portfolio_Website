@@ -36,8 +36,7 @@ function Contact() {
           <AnimatedLetters letterClass={letterClass} inputText={'Contact Me'} time={5} />
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. Est ultricies integer quis auctor elit sed vulputate mi. 
+          Hey, if you need colorful websites with fancy animations for your business or personal portfolio just let me know with this form and I will get back to you as soon as possible. 
         </p>
 
         <div className='contact-form'>
