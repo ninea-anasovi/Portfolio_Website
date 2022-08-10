@@ -5,6 +5,12 @@
     position: absolute;
     height: 100%;
     background-color: $backgroundColor;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.page::-webkit-scrollbar {
+    display: none;
 }
 
 .top-tags {
@@ -27,6 +33,7 @@
 }
 
 .container {
+    
     left: 10%;
     width: 100%;
     will-change: contents;
