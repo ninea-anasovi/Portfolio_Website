@@ -1,91 +1,32 @@
 import React from 'react'
 import './index.scss'
+import img from '../../assets/images/ninea-profile.png'
+import img2 from '../../assets/images/Portfolio/Bookshelf.png'
 
-function Card() {
+
+function Card(props) {
+  let image = props.image
+  let imageAuthor = props.imageAuthor;
+
   return (
     <>
-    <ul class="container cards-portfolio">
       <li>
-        <a href="" class="card-portfolio">
-          <img src="https://i.imgur.com/oYiTqum.jpg" class="card-image" alt="" />
-          <div class="card-overlay">
-            <div class="card-header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-              <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
-              <div class="card-header-text">
-                <h3 class="card__title">Jessica Parker</h3>            
-                <span class="card__status">1 hour ago</span>
+        <a href={props.url} className="card-portfolio">
+          <img src={img2} className="card-image" alt="" />
+          <div className="card-overlay">
+            <div className="card-header">
+              <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+              <img className="card__thumb" src={img} alt="" />
+              {console.log(img)}
+              <div className="card-header-text">
+                <h3 className="card__title">{props.name}</h3>            
+                <span className="card__status">{props.tools}</span>
               </div>
             </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            <p className="card__description">{props.description}</p>
           </div>
-        </a>      
+        </a>   
       </li>
-      <li>
-        <a href="" class="card-portfolio">
-          <img src="https://i.imgur.com/oYiTqum.jpg" class="card-image" alt="" />
-          <div class="card-overlay">
-            <div class="card-header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-              <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
-              <div class="card-header-text">
-                <h3 class="card__title">Jessica Parker</h3>            
-                <span class="card__status">1 hour ago</span>
-              </div>
-            </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
-          </div>
-        </a>      
-      </li>
-      <li>
-        <a href="" class="card-portfolio">
-          <img src="https://i.imgur.com/oYiTqum.jpg" class="card-image" alt="" />
-          <div class="card-overlay">
-            <div class="card-header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-              <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
-              <div class="card-header-text">
-                <h3 class="card__title">Jessica Parker</h3>            
-                <span class="card__status">1 hour ago</span>
-              </div>
-            </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
-          </div>
-        </a>      
-      </li>
-      <li>
-        <a href="" class="card-portfolio">
-          <img src="https://i.imgur.com/oYiTqum.jpg" class="card-image" alt="" />
-          <div class="card-overlay">
-            <div class="card-header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-              <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
-              <div class="card-header-text">
-                <h3 class="card__title">Jessica Parker</h3>            
-                <span class="card__status">1 hour ago</span>
-              </div>
-            </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
-          </div>
-        </a>      
-      </li>
-      <li>
-        <a href="" class="card-portfolio">
-          <img src="https://i.imgur.com/oYiTqum.jpg" class="card-image" alt="" />
-          <div class="card-overlay">
-            <div class="card-header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-              <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
-              <div class="card-header-text">
-                <h3 class="card__title">Jessica Parker</h3>            
-                <span class="card__status">1 hour ago</span>
-              </div>
-            </div>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
-          </div>
-        </a>      
-      </li>
-    </ul>
     </>
   )
 }

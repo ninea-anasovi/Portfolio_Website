@@ -1,0 +1,48 @@
+{
+    "items" : [
+        {
+            "name": "BookList",
+            "author": "Ninèa",
+            "authorImage": "../../assets/images/ninea-profile.png",
+            "image": "../../assets/images/Portfolio/Bookshelf.png",
+            "tools": "Tools: React & Google Books Api",
+            "url": "https://nineabook.herokuapp.com/",
+            "description": "With Tools that were mentioned above I used Tailwind CSS for creating this application and axios"
+        },
+        {
+            "name": "Movies",
+            "author": "Ninèa",
+            "authorImage": "../../assets/images/ninea-profile.png",
+            "image": "../../assets/images/Portfolio/Bookshelf.png",
+            "tools": "Tools: React & Google Books Api",
+            "url": "https://nineabook.herokuapp.com/",
+            "description": "With Tools that were mentioned above I used Tailwind CSS for creating this application and axios Animate.css"
+        },
+        {
+            "name": "Item3",
+            "author": "Ninèa",
+            "authorImage": "../../assets/images/ninea-profile.png",
+            "image": "../../assets/images/Portfolio/Bookshelf.png",
+            "tools": "Tools: React & Google Books Api",
+            "url": "https://nineabook.herokuapp.com/",
+            "description": "With Tools that were mentioned above I used Tailwind CSS for creating this application and axios"
+        },
+        {
+            "name": "Item3",
+            "author": "Ninèa",
+            "authorImage": "../../assets/images/ninea-profile.png",
+            "image": "../../assets/images/Portfolio/Bookshelf.png",
+            "tools": "Tools: React & Google Books Api",
+            "url": "https://nineabook.herokuapp.com/",
+            "description": "With Tools that were mentioned above I used Tailwind CSS for creating this application and axios"
+        },
+        {
+            "name": "Item3",
+            "author": "Ninèa",
+            "authorImage": "../../assets/images/ninea-profile.png",
+            "image": "../../assets/images/Portfolio/Bookshelf.png",
+            "tools": "Tools: React & Google Books Api",
+            "url": "https://nineabook.herokuapp.com/",
+            "description": "With Tools that were mentioned above I used Tailwind CSS for creating this application and axios"
+        }]
+}

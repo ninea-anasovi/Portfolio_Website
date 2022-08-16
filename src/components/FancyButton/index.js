@@ -4,10 +4,10 @@ import './index.scss'
 function FancyButton() {
   return (
     <>
-      <div class="wrapper">
-        <div class="card">
+      <div className="wrapper">
+        <div className="card">
           <h1>
-            <span class="enclosed">My</span>Work
+            <span className="enclosed">My</span>Work
           </h1>
         </div>
       </div>

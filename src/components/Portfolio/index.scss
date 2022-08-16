@@ -1,1 +1,16 @@
 @import '../../App.scss';
+
+
+.cards-portfolio {
+    width: 80%;
+    --surface-color: #fff;
+    --curve: 40;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fef8f8;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;}
