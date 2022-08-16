@@ -11,7 +11,7 @@ function Card(props) {
   return (
     <>
       <li>
-        <a href={props.url} className="card-portfolio">
+        <a href={props.url} target="_blank" className="card-portfolio">
           <img src={img2} className="card-image" alt="" />
           <div className="card-overlay">
             <div className="card-header">
